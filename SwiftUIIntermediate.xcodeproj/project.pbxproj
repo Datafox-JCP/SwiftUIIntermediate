@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65031F22A2A29F3007623FB /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65031F12A2A29F3007623FB /* MaskView.swift */; };
+		C6591EFA2A298EDC0054800C /* GeometryReeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6591EF92A298EDC0054800C /* GeometryReeaderView.swift */; };
+		C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6591EFB2A2993A40054800C /* GeometryReader2View.swift */; };
 		C68FB6962A2596C600C6B16F /* SwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */; };
 		C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6972A2596C600C6B16F /* ContentView.swift */; };
 		C68FB69A2A2596CA00C6B16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68FB6992A2596CA00C6B16F /* Assets.xcassets */; };
@@ -17,9 +20,15 @@
 		C6C3B1802A282945002892E2 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B17F2A282945002892E2 /* DragGestureView.swift */; };
 		C6C3B1832A283CA5002892E2 /* DragGestureSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */; };
 		C6D45D7A2A26D79C00B8A8BE /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D45D792A26D79C00B8A8BE /* TapGestureView.swift */; };
+		C6DFDAB82A2A747C00C6A78A /* MultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFDAB72A2A747C00C6A78A /* MultipleSheetsView.swift */; };
+		C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */; };
+		C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C65031F12A2A29F3007623FB /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
+		C6591EF92A298EDC0054800C /* GeometryReeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReeaderView.swift; sourceTree = "<group>"; };
+		C6591EFB2A2993A40054800C /* GeometryReader2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader2View.swift; sourceTree = "<group>"; };
 		C68FB6922A2596C600C6B16F /* SwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
 		C68FB6972A2596C600C6B16F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +40,9 @@
 		C6C3B17F2A282945002892E2 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureSecondView.swift; sourceTree = "<group>"; };
 		C6D45D792A26D79C00B8A8BE /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		C6DFDAB72A2A747C00C6A78A /* MultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsView.swift; sourceTree = "<group>"; };
+		C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets2View.swift; sourceTree = "<group>"; };
+		C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C65031F02A2A2941007623FB /* Readers */ = {
+			isa = PBXGroup;
+			children = (
+				C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */,
+				C6591EF92A298EDC0054800C /* GeometryReeaderView.swift */,
+				C6591EFB2A2993A40054800C /* GeometryReader2View.swift */,
+			);
+			path = Readers;
+			sourceTree = "<group>";
+		};
 		C68FB6892A2596C600C6B16F = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +88,9 @@
 				C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */,
 				C68FB6972A2596C600C6B16F /* ContentView.swift */,
 				C6C3B1812A28294E002892E2 /* Gestures */,
+				C65031F02A2A2941007623FB /* Readers */,
+				C6DFDABB2A2A8A1000C6A78A /* Sheets */,
+				C6DFDABC2A2A8A2A00C6A78A /* Mask */,
 				C68FB6992A2596CA00C6B16F /* Assets.xcassets */,
 				C68FB69B2A2596CA00C6B16F /* Preview Content */,
 			);
@@ -91,6 +116,23 @@
 				C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */,
 			);
 			path = Gestures;
+			sourceTree = "<group>";
+		};
+		C6DFDABB2A2A8A1000C6A78A /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				C6DFDAB72A2A747C00C6A78A /* MultipleSheetsView.swift */,
+				C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		C6DFDABC2A2A8A2A00C6A78A /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				C65031F12A2A29F3007623FB /* MaskView.swift */,
+			);
+			path = Mask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,13 +206,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D45D7A2A26D79C00B8A8BE /* TapGestureView.swift in Sources */,
+				C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */,
 				C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */,
 				C6C3B1832A283CA5002892E2 /* DragGestureSecondView.swift in Sources */,
+				C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */,
 				C6C3B17C2A27F467002892E2 /* MagnificationGestureView.swift in Sources */,
 				C6C3B1802A282945002892E2 /* DragGestureView.swift in Sources */,
+				C6DFDAB82A2A747C00C6A78A /* MultipleSheetsView.swift in Sources */,
 				C68FB6962A2596C600C6B16F /* SwiftUIIntermediateApp.swift in Sources */,
+				C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */,
+				C65031F22A2A29F3007623FB /* MaskView.swift in Sources */,
 				C6C3B17E2A28263D002892E2 /* RotationGestureView.swift in Sources */,
 				C68FB6A42A25973300C6B16F /* LongPressGestureView.swift in Sources */,
+				C6591EFA2A298EDC0054800C /* GeometryReeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
