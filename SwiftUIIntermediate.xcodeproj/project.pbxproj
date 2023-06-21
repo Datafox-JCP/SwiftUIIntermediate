@@ -7,42 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60EE5D02A41D83D0084EE26 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60EE5CF2A41D83D0084EE26 /* AsyncAwaitView.swift */; };
+		C64DC50F2A42785F00C1B773 /* SearchWithAPICallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DC50E2A42785F00C1B773 /* SearchWithAPICallView.swift */; };
 		C65031F22A2A29F3007623FB /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65031F12A2A29F3007623FB /* MaskView.swift */; };
 		C6591EFA2A298EDC0054800C /* GeometryReeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6591EF92A298EDC0054800C /* GeometryReeaderView.swift */; };
 		C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6591EFB2A2993A40054800C /* GeometryReader2View.swift */; };
+		C65BD5622A2B7DCB00376760 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BD5612A2B7DCB00376760 /* SoundView.swift */; };
+		C65BD5652A2B897D00376760 /* DoorKnock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C65BD5642A2B897D00376760 /* DoorKnock.mp3 */; };
+		C67FA2392A2E732F0078AB80 /* LocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FA2382A2E732F0078AB80 /* LocalNotificationView.swift */; };
 		C68FB6962A2596C600C6B16F /* SwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */; };
 		C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6972A2596C600C6B16F /* ContentView.swift */; };
 		C68FB69A2A2596CA00C6B16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68FB6992A2596CA00C6B16F /* Assets.xcassets */; };
 		C68FB69D2A2596CA00C6B16F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68FB69C2A2596CA00C6B16F /* Preview Assets.xcassets */; };
 		C68FB6A42A25973300C6B16F /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6A32A25973300C6B16F /* LongPressGestureView.swift */; };
+		C6BFE9352A2D1FB100B2E0F8 /* ThunderWindRain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6BFE9342A2D1FB100B2E0F8 /* ThunderWindRain.mp3 */; };
+		C6BFE9372A2D2DA400B2E0F8 /* HapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BFE9362A2D2DA400B2E0F8 /* HapticsView.swift */; };
+		C6C0359D2A3E492400931892 /* SortFilterMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0359C2A3E492400931892 /* SortFilterMapView.swift */; };
 		C6C3B17C2A27F467002892E2 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B17B2A27F467002892E2 /* MagnificationGestureView.swift */; };
 		C6C3B17E2A28263D002892E2 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B17D2A28263D002892E2 /* RotationGestureView.swift */; };
 		C6C3B1802A282945002892E2 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B17F2A282945002892E2 /* DragGestureView.swift */; };
 		C6C3B1832A283CA5002892E2 /* DragGestureSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */; };
+		C6CC7B892A30BF6D00459242 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC7B882A30BF6D00459242 /* ToolbarView.swift */; };
 		C6D45D7A2A26D79C00B8A8BE /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D45D792A26D79C00B8A8BE /* TapGestureView.swift */; };
+		C6D5A42E2A3B93BF00318090 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5A42D2A3B93BF00318090 /* TabBarView.swift */; };
+		C6D9D02B2A2FCA6900E7B00D /* HashableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9D02A2A2FCA6900E7B00D /* HashableView.swift */; };
 		C6DFDAB82A2A747C00C6A78A /* MultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFDAB72A2A747C00C6A78A /* MultipleSheetsView.swift */; };
 		C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */; };
+		C6EAFD072A336A150049FCB7 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAFD062A336A140049FCB7 /* NavigationStackView.swift */; };
 		C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */; };
+		C6F5A1DB2A40EB9B00203BD0 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60EE5CF2A41D83D0084EE26 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
+		C64DC50E2A42785F00C1B773 /* SearchWithAPICallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWithAPICallView.swift; sourceTree = "<group>"; };
 		C65031F12A2A29F3007623FB /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
 		C6591EF92A298EDC0054800C /* GeometryReeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReeaderView.swift; sourceTree = "<group>"; };
 		C6591EFB2A2993A40054800C /* GeometryReader2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader2View.swift; sourceTree = "<group>"; };
+		C65BD5612A2B7DCB00376760 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		C65BD5642A2B897D00376760 /* DoorKnock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoorKnock.mp3; sourceTree = "<group>"; };
+		C67FA2382A2E732F0078AB80 /* LocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationView.swift; sourceTree = "<group>"; };
 		C68FB6922A2596C600C6B16F /* SwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
 		C68FB6972A2596C600C6B16F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C68FB6992A2596CA00C6B16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68FB69C2A2596CA00C6B16F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C68FB6A32A25973300C6B16F /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		C6BFE9342A2D1FB100B2E0F8 /* ThunderWindRain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThunderWindRain.mp3; sourceTree = "<group>"; };
+		C6BFE9362A2D2DA400B2E0F8 /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
+		C6C0359C2A3E492400931892 /* SortFilterMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMapView.swift; sourceTree = "<group>"; };
 		C6C3B17B2A27F467002892E2 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
 		C6C3B17D2A28263D002892E2 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
 		C6C3B17F2A282945002892E2 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureSecondView.swift; sourceTree = "<group>"; };
+		C6CC7B882A30BF6D00459242 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		C6D45D792A26D79C00B8A8BE /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		C6D5A42D2A3B93BF00318090 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C6D9D02A2A2FCA6900E7B00D /* HashableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableView.swift; sourceTree = "<group>"; };
 		C6DFDAB72A2A747C00C6A78A /* MultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsView.swift; sourceTree = "<group>"; };
 		C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets2View.swift; sourceTree = "<group>"; };
+		C6EAFD062A336A140049FCB7 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
+		C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60EE5CE2A41D8130084EE26 /* Network calls */ = {
+			isa = PBXGroup;
+			children = (
+				C60EE5CF2A41D83D0084EE26 /* AsyncAwaitView.swift */,
+				C64DC50E2A42785F00C1B773 /* SearchWithAPICallView.swift */,
+			);
+			path = "Network calls";
+			sourceTree = "<group>";
+		};
 		C65031F02A2A2941007623FB /* Readers */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +99,15 @@
 				C6591EFB2A2993A40054800C /* GeometryReader2View.swift */,
 			);
 			path = Readers;
+			sourceTree = "<group>";
+		};
+		C65BD5632A2B895E00376760 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C65BD5642A2B897D00376760 /* DoorKnock.mp3 */,
+				C6BFE9342A2D1FB100B2E0F8 /* ThunderWindRain.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		C68FB6892A2596C600C6B16F = {
@@ -91,8 +135,15 @@
 				C65031F02A2A2941007623FB /* Readers */,
 				C6DFDABB2A2A8A1000C6A78A /* Sheets */,
 				C6DFDABC2A2A8A2A00C6A78A /* Mask */,
+				C6BFE9382A2D309300B2E0F8 /* Sound & Haptics */,
+				C6D9D0292A2FCA4900E7B00D /* Local Notifications */,
+				C6CC7B8A2A30DCBE00459242 /* Bars */,
+				C6CC7B8B2A30DD0A00459242 /* Coding */,
+				C60EE5CE2A41D8130084EE26 /* Network calls */,
 				C68FB6992A2596CA00C6B16F /* Assets.xcassets */,
+				C65BD5632A2B895E00376760 /* Sounds */,
 				C68FB69B2A2596CA00C6B16F /* Preview Content */,
+				C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */,
 			);
 			path = SwiftUIIntermediate;
 			sourceTree = "<group>";
@@ -103,6 +154,15 @@
 				C68FB69C2A2596CA00C6B16F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6BFE9382A2D309300B2E0F8 /* Sound & Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				C65BD5612A2B7DCB00376760 /* SoundView.swift */,
+				C6BFE9362A2D2DA400B2E0F8 /* HapticsView.swift */,
+			);
+			path = "Sound & Haptics";
 			sourceTree = "<group>";
 		};
 		C6C3B1812A28294E002892E2 /* Gestures */ = {
@@ -116,6 +176,33 @@
 				C6C3B1822A283CA5002892E2 /* DragGestureSecondView.swift */,
 			);
 			path = Gestures;
+			sourceTree = "<group>";
+		};
+		C6CC7B8A2A30DCBE00459242 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC7B882A30BF6D00459242 /* ToolbarView.swift */,
+				C6EAFD062A336A140049FCB7 /* NavigationStackView.swift */,
+				C6D5A42D2A3B93BF00318090 /* TabBarView.swift */,
+			);
+			path = Bars;
+			sourceTree = "<group>";
+		};
+		C6CC7B8B2A30DD0A00459242 /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				C6D9D02A2A2FCA6900E7B00D /* HashableView.swift */,
+				C6C0359C2A3E492400931892 /* SortFilterMapView.swift */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		C6D9D0292A2FCA4900E7B00D /* Local Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				C67FA2382A2E732F0078AB80 /* LocalNotificationView.swift */,
+			);
+			path = "Local Notifications";
 			sourceTree = "<group>";
 		};
 		C6DFDABB2A2A8A1000C6A78A /* Sheets */ = {
@@ -194,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68FB69D2A2596CA00C6B16F /* Preview Assets.xcassets in Resources */,
+				C65BD5652A2B897D00376760 /* DoorKnock.mp3 in Resources */,
 				C68FB69A2A2596CA00C6B16F /* Assets.xcassets in Resources */,
+				C6BFE9352A2D1FB100B2E0F8 /* ThunderWindRain.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,19 +294,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D9D02B2A2FCA6900E7B00D /* HashableView.swift in Sources */,
 				C6D45D7A2A26D79C00B8A8BE /* TapGestureView.swift in Sources */,
 				C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */,
 				C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */,
+				C6BFE9372A2D2DA400B2E0F8 /* HapticsView.swift in Sources */,
 				C6C3B1832A283CA5002892E2 /* DragGestureSecondView.swift in Sources */,
+				C60EE5D02A41D83D0084EE26 /* AsyncAwaitView.swift in Sources */,
+				C6F5A1DB2A40EB9B00203BD0 /* PhotoPickerView.swift in Sources */,
 				C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */,
+				C64DC50F2A42785F00C1B773 /* SearchWithAPICallView.swift in Sources */,
+				C65BD5622A2B7DCB00376760 /* SoundView.swift in Sources */,
 				C6C3B17C2A27F467002892E2 /* MagnificationGestureView.swift in Sources */,
 				C6C3B1802A282945002892E2 /* DragGestureView.swift in Sources */,
 				C6DFDAB82A2A747C00C6A78A /* MultipleSheetsView.swift in Sources */,
 				C68FB6962A2596C600C6B16F /* SwiftUIIntermediateApp.swift in Sources */,
+				C67FA2392A2E732F0078AB80 /* LocalNotificationView.swift in Sources */,
+				C6EAFD072A336A150049FCB7 /* NavigationStackView.swift in Sources */,
 				C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */,
+				C6C0359D2A3E492400931892 /* SortFilterMapView.swift in Sources */,
 				C65031F22A2A29F3007623FB /* MaskView.swift in Sources */,
+				C6D5A42E2A3B93BF00318090 /* TabBarView.swift in Sources */,
 				C6C3B17E2A28263D002892E2 /* RotationGestureView.swift in Sources */,
 				C68FB6A42A25973300C6B16F /* LongPressGestureView.swift in Sources */,
+				C6CC7B892A30BF6D00459242 /* ToolbarView.swift in Sources */,
 				C6591EFA2A298EDC0054800C /* GeometryReeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

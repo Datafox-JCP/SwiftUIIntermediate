@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIIntermediateApp: App {
     var body: some Scene {
         WindowGroup {
-            GeometryReader2View()
+            AsyncAwaitView()
         }
     }
 }

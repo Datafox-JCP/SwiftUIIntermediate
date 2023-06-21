@@ -12,7 +12,7 @@ struct GeometryReader2View: View {
     // Para obtener la posición exacta
     // 1
     
-    private var images = ["gato", "gatos1", "gatos2", "gatos3", "gatos4", "gatos5", "gatos6", "gatos7", "gatos8", "gatos9"]
+    private var images = ["Imagen1", "Imagen2", "Imagen3", "Imagen4", "Imagen5", "Imagen6", "Imagen7", "Imagen8", "Imagen9", "Imagen10", "Imagen11", "Imagen12"]
 
     var body: some View {
         
@@ -29,7 +29,7 @@ struct GeometryReader2View: View {
                         GeometryReader { geometry in
                             Image(image)
                                 .resizable()
-                                .scaledToFit()
+                                .scaledToFill()
                                 .cornerRadius(30)
                                 // 3 sacar de la imagen
     //                            .frame(height: 300)
@@ -44,8 +44,8 @@ struct GeometryReader2View: View {
                                     axis: (x: 0.0, y: 1.0, z: 0.0))
                             
                         } // Geometry el frame debe llevar width y height
-                        .frame(width: 300, height: 300)
-                        .padding()
+                        .frame(width: 260, height: 260)
+                        .padding(8)
                     }
                     // Loop
                 } // HStack
@@ -55,7 +55,7 @@ struct GeometryReader2View: View {
     
     // 5 añadir función
     // MARK: Funciones
-    // GeoProxy es el valor de geometry en el Georeder
+    // GeoProxy es el valor de geometry en el Georeader
     private func getPercentage(geo: GeometryProxy) -> Double {
         let maxDistance = UIScreen.main.bounds.width / 2
         let currentX = geo.frame(in: .global).midX // para obtener el centro de la imagen

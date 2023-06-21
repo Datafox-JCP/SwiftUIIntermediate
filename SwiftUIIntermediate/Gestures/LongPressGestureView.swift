@@ -17,16 +17,7 @@ struct LongPressGestureView: View {
     // MARK: View
     var body: some View {
         VStack {
-            Text(isComplete ? "Completado" : "No completado")
-                .padding()
-                .padding(.horizontal)
-                .background(isComplete ? .green : .red)
-                .cornerRadius(16)
-                .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) {
-                    isComplete.toggle()
-                }
-                .padding(.bottom, 50)
-            
+            Spacer()
             VStack {
                 Rectangle()
                     .fill(isSuccess ? Color.green : Color.yellow)
@@ -77,6 +68,18 @@ struct LongPressGestureView: View {
                         }
                 } // HStack
             } // VStack
+            
+            Spacer()
+            
+            Text(isComplete ? "Completado" : "No completado")
+                .padding()
+                .padding(.horizontal)
+                .background(isComplete ? .green : .red)
+                .cornerRadius(16)
+                .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) {
+                    isComplete.toggle()
+                }
+                .padding(.bottom, 50)
         } // VStack
     }
 }
