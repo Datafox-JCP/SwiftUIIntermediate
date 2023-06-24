@@ -14,6 +14,8 @@
 		C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6591EFB2A2993A40054800C /* GeometryReader2View.swift */; };
 		C65BD5622A2B7DCB00376760 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BD5612A2B7DCB00376760 /* SoundView.swift */; };
 		C65BD5652A2B897D00376760 /* DoorKnock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C65BD5642A2B897D00376760 /* DoorKnock.mp3 */; };
+		C668F2F72A439F240024816D /* CoreDataWithMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668F2F62A439F230024816D /* CoreDataWithMVVM.swift */; };
+		C668F2FA2A43A2210024816D /* Books.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C668F2F82A43A21F0024816D /* Books.xcdatamodeld */; };
 		C67FA2392A2E732F0078AB80 /* LocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FA2382A2E732F0078AB80 /* LocalNotificationView.swift */; };
 		C68FB6962A2596C600C6B16F /* SwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */; };
 		C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FB6972A2596C600C6B16F /* ContentView.swift */; };
@@ -35,6 +37,7 @@
 		C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */; };
 		C6EAFD072A336A150049FCB7 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAFD062A336A140049FCB7 /* NavigationStackView.swift */; };
 		C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */; };
+		C6EEDED02A4637B20098E91C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEDECF2A4637B20098E91C /* UserModel.swift */; };
 		C6F5A1DB2A40EB9B00203BD0 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,8 @@
 		C6591EFB2A2993A40054800C /* GeometryReader2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader2View.swift; sourceTree = "<group>"; };
 		C65BD5612A2B7DCB00376760 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
 		C65BD5642A2B897D00376760 /* DoorKnock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoorKnock.mp3; sourceTree = "<group>"; };
+		C668F2F62A439F230024816D /* CoreDataWithMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataWithMVVM.swift; sourceTree = "<group>"; };
+		C668F2F92A43A2210024816D /* Books.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Books.xcdatamodel; sourceTree = "<group>"; };
 		C67FA2382A2E732F0078AB80 /* LocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationView.swift; sourceTree = "<group>"; };
 		C68FB6922A2596C600C6B16F /* SwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
@@ -68,6 +73,7 @@
 		C6DFDAB92A2A867D00C6A78A /* MultipleSheets2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets2View.swift; sourceTree = "<group>"; };
 		C6EAFD062A336A140049FCB7 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		C6EBFB682A297F33009C03C5 /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
+		C6EEDECF2A4637B20098E91C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +93,17 @@
 			children = (
 				C60EE5CF2A41D83D0084EE26 /* AsyncAwaitView.swift */,
 				C64DC50E2A42785F00C1B773 /* SearchWithAPICallView.swift */,
+				C6EEDECF2A4637B20098E91C /* UserModel.swift */,
 			);
 			path = "Network calls";
+			sourceTree = "<group>";
+		};
+		C64DC5102A428B0800C1B773 /* Photo Picker */ = {
+			isa = PBXGroup;
+			children = (
+				C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */,
+			);
+			path = "Photo Picker";
 			sourceTree = "<group>";
 		};
 		C65031F02A2A2941007623FB /* Readers */ = {
@@ -110,6 +125,15 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		C668F2F52A439F020024816D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C668F2F62A439F230024816D /* CoreDataWithMVVM.swift */,
+				C668F2F82A43A21F0024816D /* Books.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		C68FB6892A2596C600C6B16F = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +153,7 @@
 		C68FB6942A2596C600C6B16F /* SwiftUIIntermediate */ = {
 			isa = PBXGroup;
 			children = (
+				C668F2F52A439F020024816D /* Core Data */,
 				C68FB6952A2596C600C6B16F /* SwiftUIIntermediateApp.swift */,
 				C68FB6972A2596C600C6B16F /* ContentView.swift */,
 				C6C3B1812A28294E002892E2 /* Gestures */,
@@ -138,12 +163,12 @@
 				C6BFE9382A2D309300B2E0F8 /* Sound & Haptics */,
 				C6D9D0292A2FCA4900E7B00D /* Local Notifications */,
 				C6CC7B8A2A30DCBE00459242 /* Bars */,
+				C64DC5102A428B0800C1B773 /* Photo Picker */,
 				C6CC7B8B2A30DD0A00459242 /* Coding */,
 				C60EE5CE2A41D8130084EE26 /* Network calls */,
 				C68FB6992A2596CA00C6B16F /* Assets.xcassets */,
 				C65BD5632A2B895E00376760 /* Sounds */,
 				C68FB69B2A2596CA00C6B16F /* Preview Content */,
-				C6F5A1DA2A40EB9B00203BD0 /* PhotoPickerView.swift */,
 			);
 			path = SwiftUIIntermediate;
 			sourceTree = "<group>";
@@ -295,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D9D02B2A2FCA6900E7B00D /* HashableView.swift in Sources */,
+				C668F2FA2A43A2210024816D /* Books.xcdatamodeld in Sources */,
 				C6D45D7A2A26D79C00B8A8BE /* TapGestureView.swift in Sources */,
 				C6DFDABA2A2A867D00C6A78A /* MultipleSheets2View.swift in Sources */,
 				C68FB6982A2596C600C6B16F /* ContentView.swift in Sources */,
@@ -304,6 +330,7 @@
 				C6F5A1DB2A40EB9B00203BD0 /* PhotoPickerView.swift in Sources */,
 				C6EBFB692A297F33009C03C5 /* ScrollViewReaderView.swift in Sources */,
 				C64DC50F2A42785F00C1B773 /* SearchWithAPICallView.swift in Sources */,
+				C668F2F72A439F240024816D /* CoreDataWithMVVM.swift in Sources */,
 				C65BD5622A2B7DCB00376760 /* SoundView.swift in Sources */,
 				C6C3B17C2A27F467002892E2 /* MagnificationGestureView.swift in Sources */,
 				C6C3B1802A282945002892E2 /* DragGestureView.swift in Sources */,
@@ -314,6 +341,7 @@
 				C6591EFC2A2993A40054800C /* GeometryReader2View.swift in Sources */,
 				C6C0359D2A3E492400931892 /* SortFilterMapView.swift in Sources */,
 				C65031F22A2A29F3007623FB /* MaskView.swift in Sources */,
+				C6EEDED02A4637B20098E91C /* UserModel.swift in Sources */,
 				C6D5A42E2A3B93BF00318090 /* TabBarView.swift in Sources */,
 				C6C3B17E2A28263D002892E2 /* RotationGestureView.swift in Sources */,
 				C68FB6A42A25973300C6B16F /* LongPressGestureView.swift in Sources */,
@@ -517,6 +545,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C668F2F82A43A21F0024816D /* Books.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C668F2F92A43A2210024816D /* Books.xcdatamodel */,
+			);
+			currentVersion = C668F2F92A43A2210024816D /* Books.xcdatamodel */;
+			path = Books.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C68FB68A2A2596C600C6B16F /* Project object */;
 }

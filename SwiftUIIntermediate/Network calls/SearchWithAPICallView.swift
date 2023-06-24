@@ -7,29 +7,6 @@
 
 import SwiftUI
 
-typealias usersList = [Users]
-
-struct Users: Codable {
-    let id: Int
-    let name, username, email: String
-    let address: Address
-    let phone, website: String
-    let company: Company
-}
-
-struct Address: Codable {
-    let street, suite, city, zipcode: String
-    let geo: Geo
-}
-
-struct Geo: Codable {
-    let lat, lng: String
-}
-
-struct Company: Codable {
-    let name, catchPhrase, bs: String
-}
-
 struct SearchWithAPICallView: View {
     
     @State private var users: usersList = []
@@ -88,6 +65,7 @@ struct SearchWithAPICallView: View {
         }
         
         let (data, response) = try await URLSession.shared.data(from: url)
+        
         guard let response = response as? HTTPURLResponse, (200..<300) ~= response.statusCode else {
             throw NetworkError.invalidResponse
         }
