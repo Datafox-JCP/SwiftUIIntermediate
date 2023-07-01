@@ -59,7 +59,6 @@ struct GeometryReader2View: View {
     private func getPercentage(geo: GeometryProxy) -> Double {
         let maxDistance = UIScreen.main.bounds.width / 2
         let currentX = geo.frame(in: .global).midX // para obtener el centro de la imagen
-        
         return Double(1 - (currentX / maxDistance))
     }
 }
