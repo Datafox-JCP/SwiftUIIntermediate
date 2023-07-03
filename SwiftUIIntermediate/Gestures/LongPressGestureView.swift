@@ -8,42 +8,63 @@
 import SwiftUI
 
 struct LongPressGestureView: View {
-    
-    // MARK: Propiedades
-    
-    @State var isComplete = false
-    @State var isSuccess = false
-    
-    // MARK: View
-    var body: some View {
-        VStack {
-            Spacer()
-            VStack {
+        // 2
+        @State private var isComplete = false
+        // 12
+        @State private var isSucess = false
+        
+        var body: some View {
+            // 1
+    //        Text("SwiftUI Intermedio")
+            // 3
+            VStack(spacing: 50) {
+                Text(isComplete ? "SwiftUI Intermedio" : "Iniciando")
+                    .padding()
+                    .padding(.horizontal)
+                    // 4
+                    .background(isComplete ? .green : .red)
+                    .cornerRadius(12)
+                    // 5
+        //            .onTapGesture {
+        //                isComplete.toggle()
+        //            }
+                    // 6 comentar el 5
+        //            .onLongPressGesture {
+                    // 7 añadir minDuration
+        //            .onLongPressGesture(minimumDuration: 5.0) {
+                    // 8 añadir maximimunDistance
+                    .onLongPressGesture(minimumDuration: 5.0, maximumDistance: 100) {
+                        isComplete.toggle()
+                    }
+                // 9 Poner el text en el VStack y luego esto:
                 Rectangle()
-                    .fill(isSuccess ? Color.green : Color.yellow)
+    //                .fill(Color.blue)
+                    // 14 cambiar a
+                    .fill(isSucess ? Color.green : Color.yellow)
+    //                .frame(maxWidth: 10)
+                    // 11 cambiar a
                     .frame(maxWidth: isComplete ? .infinity : 0)
-                    .frame(height: 50)
+                    .frame(height: 55)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color.orange)
-                    .cornerRadius(16)
-                    .padding(.horizontal)
-                    .padding(.bottom, 20)
                 
                 HStack {
                     Text("Clic aquí")
                         .foregroundColor(.white)
                         .padding()
                         .background(Color.black)
-                        .cornerRadius(16)
-                        .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 100) { (isPressing) in
-                            // comienza el press -> duración mínima
+                        .cornerRadius(12)
+                        //10
+                        .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) { isPressing in
+                            // comienza a presionar
                             if isPressing {
-                                withAnimation(.easeInOut(duration: 1.0)) {
-                                    isComplete = true
+                                withAnimation(.easeIn(duration: 1.0)) {
+                                    isComplete.toggle()
                                 }
+                                // 14 añadir el else
                             } else {
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                                    if !isSuccess {
+                                    if !isSucess {
                                         withAnimation(.easeInOut) {
                                             isComplete = false
                                         }
@@ -51,37 +72,25 @@ struct LongPressGestureView: View {
                                 }
                             }
                         } perform: {
-                            // en la duración mínima
-                            withAnimation(.easeInOut) {
-                                isSuccess = true
+                            // 13
+                            withAnimation(.easeIn) {
+                                isSucess = true
                             }
                         }
                     
-                    Text("Restaurar")
+                    Text("Resetear")
                         .foregroundColor(.white)
                         .padding()
                         .background(Color.black)
-                        .cornerRadius(16)
+                        .cornerRadius(12)
+                        // 15
                         .onTapGesture {
                             isComplete = false
-                            isSuccess = false
+                            isSucess = false
                         }
                 } // HStack
             } // VStack
-            
-            Spacer()
-            
-            Text(isComplete ? "Completado" : "No completado")
-                .padding()
-                .padding(.horizontal)
-                .background(isComplete ? .green : .red)
-                .cornerRadius(16)
-                .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) {
-                    isComplete.toggle()
-                }
-                .padding(.bottom, 50)
-        } // VStack
-    }
+        }
 }
 
 // MARK: Preview
