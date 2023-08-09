@@ -13,6 +13,8 @@ import CoreData
  View - UI
  Model - Datos
  ViewModel - Manejador de los datos para el view
+ 
+ Books entity Book
  */
 
 // 1
