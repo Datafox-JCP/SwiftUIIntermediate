@@ -70,7 +70,7 @@ class DownloadWithCombineViewModel: ObservableObject {
     }
 }
 
-struct DownloadWithCombine: View {
+struct DownloadWithCombineView: View {
     // 2
     @StateObject private var vm = DownloadWithCombineViewModel()
     
@@ -92,6 +92,6 @@ struct DownloadWithCombine: View {
 
 struct DownloadWithCombine_Previews: PreviewProvider {
     static var previews: some View {
-        DownloadWithCombine()
+        DownloadWithCombineView()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  DownloadWithEscaping.swift
+//  DownloadWithEscapingView.swift
 //  SwiftUIIntermediate
 //
 //  Created by Juan Hernandez Pazos on 02/07/23.
@@ -118,7 +118,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
     }
 }
 
-struct DownloadWithEscaping: View {
+struct DownloadWithEscapingView: View {
     // 2
     @StateObject private var vm = DownloadWithEscapingViewModel()
     
@@ -140,6 +140,6 @@ struct DownloadWithEscaping: View {
 
 struct DownloadWithEscaping_Previews: PreviewProvider {
     static var previews: some View {
-        DownloadWithEscaping()
+        DownloadWithEscapingView()
     }
 }
