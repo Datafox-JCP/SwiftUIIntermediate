@@ -16,13 +16,14 @@ struct ContentTransitionEffectsView: View {
     var body: some View {
         VStack {
             Image(systemName: sfImage)
+                .resizable()
                 .font(.largeTitle.bold())
                 .contentTransition(.symbolEffect(.automatic))
-                .frame(height: 50)
+                .frame(width: 75, height: 75)
             
             Button {
                 let images = ["suit.heart.fill", "house.fill", "gearshape", "person.circle.fill", "iphone", "macbook", "apple.logo"]
-                withAnimation(.bouncy) {
+                withAnimation(.interactiveSpring) {
                     sfCount += 1
                     sfImage = images[sfCount % images.count]
                 }

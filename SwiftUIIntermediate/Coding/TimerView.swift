@@ -41,7 +41,7 @@ struct TimerView: View {
     var body: some View {
         ZStack {
             RadialGradient(
-                gradient: Gradient(colors: [Color.red, Color.black]),
+                gradient: Gradient(colors: [Color.blue, Color.black]),
                 center: .center,
                 startRadius: 5,
                 endRadius: 500)
@@ -68,11 +68,17 @@ struct TimerView: View {
                 .foregroundColor(.white)
                 
                 TabView(selection: $counter) {
-                    Image("Imagen1")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(16)
+                    VStack {
+                        Image("Imagen1")
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(16)
                         .tag(1)
+                        Text("\"Siempre llegarás a alguna parte si camninas lo bastante.\"")
+                            .font(.system(.title, design: .serif))
+                            .foregroundStyle(.white)
+                            .multilineTextAlignment(.center)
+                    }
                     Image("Imagen2")
                         .resizable()
                         .scaledToFit()

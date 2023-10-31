@@ -82,8 +82,10 @@ struct PhotoPickerView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Hello, World!")
+            Text("Selector de Fotos")
+                .font(.title)
             
+            Spacer()
             // 3
             if let image = viewModel.selectedImage {
                 Image(uiImage: image)
@@ -96,10 +98,12 @@ struct PhotoPickerView: View {
             // 5 dejar en selection y label y hacer el 6 y después poner $viewModel.imageSelection y completar
 //            PhotosPicker(selection: $viewModel.imageSelection) {
             // 7
+            Spacer()
+            
             PhotosPicker(selection: $viewModel.imageSelection, matching: .images) {
-                Text("Abrir selector de fotos")
-                    .foregroundColor(.red)
+                Text("Seleccionar Foto")
             }
+            .buttonStyle(.bordered)
             
             // 14
             if !viewModel.selectedImages.isEmpty {
@@ -109,17 +113,18 @@ struct PhotoPickerView: View {
                             Image(uiImage: image)
                                 .resizable()
                                 .scaledToFill()
-                                .frame(width: 50, height: 50, alignment: .center)
+                                .frame(width: 100, height: 100, alignment: .center)
                                 .cornerRadius(16)
                         }
                     }
                 }
+                .padding(.horizontal)
             }
             
             PhotosPicker(selection: $viewModel.imageSelections, matching: .images) {
-                Text("Abrir selector de fotos")
-                    .foregroundColor(.red)
+                Text("Seleccionar Fotos")
             }
+            .buttonStyle(.bordered)
         }
     }
 }
