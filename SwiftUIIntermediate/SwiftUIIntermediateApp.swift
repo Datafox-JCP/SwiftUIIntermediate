@@ -12,7 +12,7 @@ struct SwiftUIIntermediateApp: App {
     
    var body: some Scene {
         WindowGroup {
-            PhotoPicker2View()
+            ScrollHomeView()
         }
     }
 }
